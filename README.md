@@ -1,5 +1,7 @@
 # 🌍 Interactive World Map – Angular & REST API Integration
 
+## [Live Demo](https://tanner-c.github.io/world-map/)
+
 ## Overview
 
 This project is an **interactive world map web application** built with **Angular** that dynamically displays detailed information for every country using the **World Bank API**. When a user hovers or clicks on a country in the **SVG-based world map**, the app retrieves and displays live data such as capital, region, and income level in real time.
