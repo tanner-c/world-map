@@ -1,0 +1,8 @@
+<div class="map-home">
+  <div class="map-column">
+    <app-map (countrySelected)="onCountrySelected($event)" />
+  </div>
+  <div class="details-column">
+    <app-country-details [loading]="loading" [selectedCountry]="selectedCountry" />
+  </div>
+</div>
