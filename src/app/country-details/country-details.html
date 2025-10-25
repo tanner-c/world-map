@@ -1,14 +1,15 @@
+<div class="country-details">
 @if (selectedCountry && !loading) {
-  <div class="country-details">
+
     <h2>{{ selectedCountry.name }}</h2>
-    <p>Capital: {{ selectedCountry.capital }}</p>
-    <p>Region: {{ selectedCountry.region }}</p>
-    <p>Income Level: {{ selectedCountry.incomeLevel }}</p>
-    <p>Latitude: {{ selectedCountry.latitude }}</p>
-    <p>Longitude: {{ selectedCountry.longitude }}</p>
-  </div>
+    <p><b>Capital:</b> {{ selectedCountry.capital }}</p>
+    <p><b>Region:</b> {{ selectedCountry.region }}</p>
+    <p><b>Income Level:</b> {{ selectedCountry.incomeLevel }}</p>
+    <p><b>Latitude:</b> {{ selectedCountry.latitude }}</p>
+    <p><b>Longitude:</b> {{ selectedCountry.longitude }}</p>
 } @else if (loading) {
   <p>Loading country details...</p>
 } @else {
   <p>No country selected.</p>
 }
+</div>
