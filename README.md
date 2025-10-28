@@ -53,8 +53,8 @@ Developed as part of a software engineering project for school, this application
 ### Installation
 
 ```bash
-git clone <repository-url>
-cd interactive-world-map
+git clone https://github.com/tanner-c/world-map.git
+cd world-map
 npm install
 ng serve
 ```
