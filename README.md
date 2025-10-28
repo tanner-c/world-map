@@ -12,7 +12,7 @@ Developed as part of a software engineering project for school, this application
 
 ## 🎯 Core Competencies Demonstrated
 
-* **JavaScript Scripting** – Built and enhanced web functionality using Angular and TypeScript.
+* **TypeScript** – Built and enhanced web functionality using Angular and TypeScript.
 * **Framework Utilization** – Implemented Angular framework, components, and routing to structure the app.
 * **API Integration** – Connected the application to the World Bank API to fetch live country data dynamically.
 
@@ -24,25 +24,6 @@ Developed as part of a software engineering project for school, this application
 * **API-Driven Data Display** – Fetches and displays country data
 * **Angular Routing** – Automatically redirects from the default route to `/map`.
 * **Responsive Layout** – Two-column interface: the left panel displays the map; the right panel shows country details.
-
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── components/
-│   ├── services/
-│   ├── app-routing.module.ts
-│   └── app.component.ts
-├── assets/
-│   └── world-map.svg
-├── angular.json
-├── package.json
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.spec.json
-└── README.md
-```
 
 ---
 
@@ -77,14 +58,6 @@ cd interactive-world-map
 npm install
 ng serve
 ```
-
----
-
-## 📸 Repository & Version Control
-
-* All commits are tracked in GitLab with descriptive messages.
-* Branch: `Working`
-* Includes commit history for major milestones (SVG setup, routing, API integration, interactivity).
 
 ---
 
